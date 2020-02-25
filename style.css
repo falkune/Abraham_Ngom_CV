@@ -1,0 +1,278 @@
+/* No media query */
+body{
+  margin: 0;
+  padding: 0;
+  background-color: #37474F;
+}
+
+#profil{
+  background-color: #004B44;
+}
+
+#prenom{
+  color: #004B44;
+}
+
+#identite strong span{
+  text-decoration: underline;
+  text-decoration-color: #004B44;
+  text-decoration-thickness: 2px;
+}
+
+/* mise en forme du cv pour ecran large */
+@media (min-width: 992px) 
+{ 
+  #container{
+    /* display: flex; */
+    justify-content: space-around;
+    width: 80%;
+    background-color: snow;
+  }
+
+  h3{
+    color: #004B44;
+  }
+
+  #profil_et_identite{
+    display: grid;
+    grid-template-columns: 35% 60%;
+    grid-template-rows: 110px;
+    grid-column-gap: 5%;
+  }
+  
+  #profil img{
+    width: 70%;
+    border-radius: 50%;
+    margin-top: 10px;
+  }
+
+  #identite h1{
+    margin-top: 10%;
+  }
+
+  #apropo_et_contact{
+    display: grid;
+    grid-template-columns: 35% 60%;
+    grid-column-gap: 5%;
+  }
+
+  #contact{
+    background-color: #004B44;
+  }
+
+  #contact .entete{
+    display: grid;
+    grid-template-columns: 10% 90%;
+    grid-template-rows: 35px;
+    color: #004B44;
+    margin-bottom: 15px;
+  }
+
+  #contact .content{
+    text-align: left;
+    margin-left: 7%;
+  }
+
+  #contact h3{
+    background-color: snow;
+  }
+
+  #apropo h3{
+    margin-top: 20%;
+    color: #004B44;
+    text-align: left;
+  }
+
+  #experiences{
+    display: grid;
+    grid-template-columns: 35% 60%;
+    grid-column-gap: 5%;
+  }
+
+  #competences{
+    background-color: #004B44;
+  }
+
+  #competences .content{
+    text-align: left;
+    margin-left: 7%;
+  }
+
+  #competences h3{
+    background-color: snow;
+  }
+
+  #projets{
+    /* todo */
+  }
+
+  #projets .fas{
+    text-align: left;
+  }
+
+  #projets .entete{
+    display: grid;
+    grid-template-columns: 10% 90%;
+    grid-template-rows: 35px;
+    color: #004B44;
+    margin-bottom: 15px;
+  }
+
+  #projets .entete h3{
+    margin-top: 7px;
+    margin-right: 20%;
+    text-align: left;
+  }
+
+  .description{
+    display: grid;
+    grid-template-columns: auto;
+    margin-top: 5px;
+    text-align: left;
+  }
+
+  .description .content{
+    text-align: left;
+    /* margin-left: 5%; */
+    font-style: italic;
+    font-size: 0.9em;
+  }
+
+  #formation_et_recomandation{
+    display: grid;
+    grid-template-columns: 35% 60%;
+    grid-column-gap: 5%;
+  }
+
+  #recommandation{
+    background-color: #004B44;
+  }
+
+  #recommandation h3{
+    background-color: snow;
+  }
+
+  #recommandation .content{
+    text-align: left;
+    margin-left: 7%;
+    font-style: italic;
+    font-size: 0.9em;
+  }
+
+  #formation .entete{
+    display: grid;
+    grid-template-columns: 10% 90%;
+    grid-template-rows: 35px;
+    color: #004B44;
+    margin-bottom: 15px;
+  }
+
+  #formation .description .content{
+    text-align: left;
+    font-style: italic;
+    font-size: 0.6em;
+  }
+
+  #formation .entete h3{
+    margin-top: 7px;
+    margin-right: 20%;
+    text-align: left;
+  }
+
+}
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) 
+{ 
+
+}
+
+
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) 
+{ 
+
+  h3{
+    color: snow;
+  }
+
+  #container{
+    /* display: flex; */
+    justify-content: space-around;
+    width: 100%;
+    background-color: snow;
+  }
+
+  #profil_et_identite{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 110px;
+  }
+
+   #profil img{
+    width: 70%;
+    border-radius: 50%;
+    margin-top: 10px;
+  }
+
+  #identite{
+    background-color: snow;
+  }
+
+  #apropo_et_contact{
+    display: grid;
+    grid-template-columns: 100%;
+  }
+
+  #apropo_et_contact h3{
+    background-color: #004B44;
+  }
+
+  #apropo{
+    grid-row-start: 1;
+  }
+
+  #experiences{
+    display: grid;
+    grid-template-columns: 100%;
+  }
+
+  #experiences .entete{
+    background-color: #004B44;
+    color: snow;
+  }
+
+  #experiences h3{
+    background-color: #004B44;
+  }
+
+  #formation .entete{
+    background-color: #004B44;
+    color: snow;
+  }
+
+  .content{
+    text-align: left;
+    margin-left: 3%;
+  }
+
+  #formation_et_recomandation{
+    display: grid;
+    grid-template-columns: 100%;
+  }
+
+  .description{
+    text-align: left;
+    margin-left: 3%;
+  }
+
+  #recommandation h3{
+    background-color: #004B44;
+  }
+
+  #recommandation{
+    grid-row-start: 2;
+  }
+
+}

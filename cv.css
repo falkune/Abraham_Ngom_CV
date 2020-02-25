@@ -6,8 +6,8 @@ body{
 	display: flex;
 	width: 75%;
 	margin-left: auto;
-    margin-right: auto;
-    background-color: snow;
+  margin-right: auto;
+  background-color: snow;
 }
 
 #page aside{
@@ -100,8 +100,8 @@ body{
 
 #titre strong span{
 	border-bottom-style: solid;
-   	border-bottom-color: #1A237E;
-   	border-bottom-width: 3px;
+  border-bottom-color: #1A237E;
+  border-bottom-width: 3px;
 }
 
 #page main .fas{
