@@ -20,7 +20,7 @@ body{
 }
 
 /* mise en forme du cv pour ecran large */
-@media (min-width: 768px) 
+@media (min-width: 992px) 
 { 
 
   #container{
@@ -33,7 +33,173 @@ body{
 
   h3{
     color: #004B44;
-    text-align: center;
+    text-align: left;
+    padding-left: 10px;
+  }
+
+  #profil_et_identite{
+    display: grid;
+    grid-template-columns: 35% 60%;
+    grid-template-rows: 110px;
+    grid-column-gap: 5%;
+  }
+  
+  #profil img{
+    width: 70%;
+    border-radius: 50%;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+
+  #identite h1{
+    margin-top: 10%;
+  }
+
+  #apropo_et_contact{
+    display: grid;
+    grid-template-columns: 35% 60%;
+    grid-column-gap: 5%;
+  }
+
+  #contact{
+    background-color: #004B44;
+  }
+
+  #contact .entete{
+    display: grid;
+    grid-template-columns: 10% 90%;
+    grid-template-rows: 35px;
+    color: #004B44;
+    margin-bottom: 15px;
+  }
+
+  #contact .content{
+    text-align: left;
+    margin-left: 7%;
+  }
+
+  #contact h3{
+    background-color: snow;
+  }
+
+  #apropo h3{
+    margin-top: 20%;
+    color: #004B44;
+    text-align: left;
+  }
+
+  #experiences{
+    display: grid;
+    grid-template-columns: 35% 60%;
+    grid-column-gap: 5%;
+  }
+
+  #competences{
+    background-color: #004B44;
+  }
+
+  #competences .content{
+    text-align: left;
+    margin-left: 7%;
+  }
+
+  #competences h3{
+    background-color: snow;
+  }
+
+  #projets .fas{
+    text-align: left;
+  }
+
+  #projets .entete{
+    display: grid;
+    grid-template-columns: 10% 90%;
+    grid-template-rows: 35px;
+    color: #004B44;
+    margin-bottom: 15px;
+  }
+
+  #projets .entete h3{
+    margin-top: 7px;
+    margin-right: 20%;
+    text-align: left;
+  }
+
+  .description{
+    display: grid;
+    grid-template-columns: auto;
+    margin-top: 5px;
+    text-align: left;
+    margin-right: 10%;
+  }
+
+  .description .content{
+    font-style: italic;
+    font-size: 0.9em;
+  }
+
+  #formation_et_recomandation{
+    display: grid;
+    grid-template-columns: 35% 60%;
+    grid-column-gap: 5%;
+  }
+
+  #recommandation{
+    background-color: #004B44;
+  }
+
+  #recommandation h3{
+    background-color: snow;
+  }
+
+  #recommandation .content{
+    margin-left: 7%;
+    font-style: italic;
+    font-size: 0.9em;
+  }
+
+  #formation .entete{
+    display: grid;
+    grid-template-columns: 10% 90%;
+    grid-template-rows: 35px;
+    color: #004B44;
+    margin-bottom: 15px;
+  }
+
+  #formation .description .content{
+    font-style: italic;
+    font-size: 0.6em;
+  }
+
+  #formation .entete h3{
+    margin-top: 7px;
+    margin-right: 20%;
+    text-align: left;
+  }
+
+  .content{
+    text-align: left;
+    margin-right: 13%;
+  }
+
+}
+/* medium devices */
+@media (min-width: 576px) and (max-width: 991.98px) 
+{
+
+  #container{
+    justify-content: space-around;
+    background-color: snow;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  h3{
+    color: #004B44;
+    text-align: left;
+    padding-left: 10px;
   }
 
   #profil_et_identite{
@@ -185,8 +351,8 @@ body{
 
 }
 
-/* small devices (portrait phones, less than 576px)*/
-@media (max-width: 767.98px) 
+/* small devices */
+@media (max-width: 575.98px) 
 { 
 
   #container{
