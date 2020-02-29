@@ -191,7 +191,7 @@ body{
 
   #container{
     justify-content: space-around;
-    width: 80%;
+    /* width: 80%; */
     background-color: snow;
   }
 
@@ -215,6 +215,10 @@ body{
     width: 70%;
     border-radius: 50%;
     margin-top: 10px;
+    display: grid;
+    margin-right: auto;
+    margin-left: auto;
+    
   }
 
   #identite{
