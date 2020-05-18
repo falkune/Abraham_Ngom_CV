@@ -213,11 +213,10 @@ a{
   }
   
   #profil img{
-    width: 70%;
-    border-radius: 50%;
+    width: 55%;
+    border-radius: 24%;
     margin-top: 10px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 10px auto;
     display: block;
   }
 
