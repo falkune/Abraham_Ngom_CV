@@ -40,7 +40,7 @@ body{
   #profil_et_identite{
     display: grid;
     grid-template-columns: 35% 60%;
-    grid-template-rows: 110px;
+    /*grid-template-rows: 110px;*/
     grid-column-gap: 5%;
   }
   
