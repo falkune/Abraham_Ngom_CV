@@ -5,6 +5,10 @@ body{
   background-color: #37474F;
 }
 
+a{
+  color: black;
+}
+
 #profil{
   background-color: #004B44;
 }
