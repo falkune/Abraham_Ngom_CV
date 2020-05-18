@@ -378,7 +378,6 @@ a{
   #profil_et_identite{
     display: grid;
     grid-template-columns: 100%;
-    grid-template-rows: 110px;
   }
 
    #profil img{
