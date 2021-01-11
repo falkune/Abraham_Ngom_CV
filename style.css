@@ -1,7 +1,5 @@
 /* No media query */
 body{
-  margin: 0;
-  padding: 0;
   background-color: #37474F;
 }
 
@@ -24,8 +22,8 @@ a{
 }
 
 /* mise en forme du cv pour ecran large */
-@media (min-width: 992px) 
-{ 
+@media (min-width: 992px)
+{
 
   #container{
     justify-content: space-around;
@@ -47,7 +45,7 @@ a{
     /*grid-template-rows: 110px;*/
     grid-column-gap: 5%;
   }
-  
+
   #profil img{
     width: 45%;
     border-radius: 16%;
@@ -190,7 +188,7 @@ a{
 
 }
 /* medium devices */
-@media (min-width: 576px) and (max-width: 991.98px) 
+@media (min-width: 576px) and (max-width: 991.98px)
 {
 
   #container{
@@ -211,7 +209,7 @@ a{
     grid-template-columns: 35% 60%;
     grid-column-gap: 5%;
   }
-  
+
   #profil img{
     width: 55%;
     border-radius: 24%;
@@ -354,8 +352,8 @@ a{
 }
 
 /* small devices */
-@media (max-width: 575.98px) 
-{ 
+@media (max-width: 575.98px)
+{
 
   #container{
     justify-content: space-around;
@@ -383,8 +381,8 @@ a{
     border-radius: 50%;
     margin: 10px auto;
     display: grid;
-    
-    
+
+
   }
 
   #identite{
